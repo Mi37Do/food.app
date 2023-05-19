@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full max-w-screen-xl flex flex-col gap-4">
+    <div class="w-full h-fit lg:h-full max-w-screen-xl flex flex-col gap-4">
         <div class="text-sm breadcrumbs capitalize flex-none">
         <ul>
             <li><a>Home</a></li> 
