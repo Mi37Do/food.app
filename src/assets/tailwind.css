@@ -1,0 +1,37 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+.btn-ghost:hover{
+    background-color: rgba(209, 206, 203, 0.3);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    
+  }
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(209, 206, 203, 0.6); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(209, 206, 203, 1); 
+  }
